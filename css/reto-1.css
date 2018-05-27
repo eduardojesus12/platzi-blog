@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.contenedor {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  color:rgb(81,81,81);
+}
+.encabezado {
+  color: white;
+  background: #273b47;
+  padding: 0 10px;
+  height: 55px;
+}
+
+.header {
+  position: relative;
+}
+
+.header img {
+  padding: 10px 0;
+}
+
+
+.menu {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.menu ul {
+  margin: 0;
+}
+.menu li {
+  margin: 0;
+  display: inline-block;
+  font-size: 18px;
+  padding: 10px 15px 0 15px;
+  cursor: pointer;
+}
+
+.seleccion {
+  border-top: 5px solid rgb(130,208,66);
+}
+
+.login {
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  background: rgb(246,70,73);
+  border-bottom: 3px solid rgb(201,36,49);
+  padding: 8px 15px;
+  outline: 0;
+}
+
+.background {
+  background: rgb(239,239,239);
+  margin-bottom: 20px;
+}
+
+
+.buscar {
+  display: flex;
+  padding: 5px 0;
+  justify-content: flex-end;
+}
+.buscar input {
+  font-size: 15px;
+  border-radius: 5px;
+  margin-right: 2px;
+  border-style: none;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  padding-left: 5px;
+  outline: 0;
+}
+
+.buscar button {
+  background: black;
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+  outline: 0;
+  cursor: pointer;
+}
+
+.portada {
+margin: 0 0 20px 0;
+position: relative;
+width: 1000px;
+height: 560px;
+}
+
+.recuadro {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.80);
+  height: 165px;
+  width: 505px;
+  padding: 25px 25px;
+}
+
+.barra {
+  margin-top: 20px;
+}
+.titulo {
+  font-size: 32px;
+}
+
+.usuario {
+  display: inline-block;
+  position: absolute;
+  bottom: 50px;
+  left: 90px;
+}
+
+.fecha-portada {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: -300px;
+}
+
+.articulos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.articulos article {
+  padding: 10px 0;
+  width: 320px;
+  position: relative;
+}
+
+.articulos .titulo {
+  font-size: 25px;
+}
+
+
+.autor, .fecha {
+  font-size: 13px;
+}
+
+.fecha {
+  position: absolute;
+  right: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.footer span {
+  margin-left:  10px;
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+.footer input {
+  margin-left: 20px;
+  font-size: 15px;
+  border: 1px solid rgb(204,204,204);
+  background: rgb(234,234,234);
+  padding: 10px;
+  outline: 0;
+  cursor: pointer;
+}
